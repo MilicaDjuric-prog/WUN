@@ -1,0 +1,88 @@
+.stanarProfil{
+    margin-left: 250px;
+    display: flex;
+    justify-content: center;
+
+   
+    overflow: auto;
+    background-color: #2092c7;
+    width: 100%;
+
+    .dugme{
+        margin:0px;
+        width: 70%;
+       
+    }
+
+    .doubleUp{
+       text-align: center;
+        
+    }
+
+    .divIkonica{
+       
+        display:flex;
+        justify-content: center;
+        margin-bottom: 5%;
+
+    }
+    .doubleUp:hover{
+        cursor:pointer
+    }
+
+    .promenaLozinke{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2%;
+
+        input{
+            border: none;
+        }
+
+    }
+    .dugme{
+        margin:3%;
+        margin-top: 3vh;
+       
+        display: block;
+       
+    }
+    .dugme1{
+        margin:5%;
+        width: 200px;
+        
+    }
+    .dugme2{
+        margin-top: 3vh;
+    }
+    .privilegije{
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+        padding-right: 2%;
+        
+    }
+    .promenaStatusa{
+        display: flex;
+        flex-direction: column;
+        word-wrap: break-word;
+        width: 50%;
+        label{
+            word-wrap: break-word;
+        }
+      
+        align-items: center;
+        h5{
+            margin:0px;
+            margin-bottom: 3%;
+            margin-top: 3%;
+        }
+        input{
+            border:none
+        }
+
+    }
+}

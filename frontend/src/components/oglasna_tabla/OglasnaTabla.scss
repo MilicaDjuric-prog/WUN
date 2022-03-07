@@ -1,0 +1,86 @@
+.oglasnaTabla{
+
+
+    margin-right: 0px;
+    padding:20px;
+    padding-right: 0px;
+    margin-left: 250px;
+    
+    
+   
+    height:100%;
+    display: flex;
+   width: 100%;
+   background-repeat: repeat;
+    justify-content:center;
+    background-image: url('https://thumbs.dreamstime.com/b/mint-color-elegant-aesthetic-pastel-seamless-background-foliage-wedding-pattern-light-tones-line-art-style-leaves-scandi-151677286.jpg');
+    overflow:auto;
+
+.stavke{
+
+    width: 80%;
+    margin-right: 40px;
+    display: grid;
+
+
+    grid-template-columns:33% 33% 33%;
+}
+
+.forma{
+   
+    margin-top: 0px;
+}
+
+.dugme{
+    margin-top: 15px;
+}
+
+.forma{
+    display: flex;
+    flex-direction: column;
+    margin:20px;
+    width:350px;
+}
+
+textarea:placeholder-shown {
+    font-style: italic;
+ }
+ @media only screen and (max-width: 1000px) {
+    .stavke{
+        grid-template-columns: 50% 50%;
+       
+        font-size: 3vh;
+       
+    }
+    .forma{
+        order: -1;
+        width:70%;
+        margin:0px;
+    }
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    font-size: 3vh;
+    
+  }
+
+  @media only screen and (max-width: 800px) {
+    
+   
+   .stavke{
+       grid-template-columns: 100%;
+   }
+
+}
+  @media only screen and (max-width: 600px) {
+    
+        margin-left: 0px;
+        width:auto;
+        overflow:initial;
+       background-attachment: local;
+       height:auto;
+       
+    
+   }
+
+}
+
